@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text-section {
+    width: 30%;
+    margin: 0 10px;
+}
+
+.icon-section {
+    width: 20%;
+}
+
+.icon-section img {
+    width: 100%;
+    height: auto;
+}
+
+.audio-controls {
+    margin-top: 20px;
+}
+
+#scrolling-text {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
